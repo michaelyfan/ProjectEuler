@@ -7,6 +7,7 @@ public class Problem9 {
 	
 	//bruteforce method
 	//tolerably quick for the values of the problem
+	//the alternate solution goes into "parametrisation". Please no. 
 	public static int bruteForce() {
 		for (int c = 1; c <= 1000; c++) {
 			for (int b = 1; b <= c; b++) {

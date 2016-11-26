@@ -8,7 +8,7 @@ public class Problem7 {
 	
 	/*
 	 * A prime number has no prime factors.
-	 * Using the above property is much more efficient than testing division by EVERY number.
+	 * Using the above property is more efficient than testing division by EVERY number, in certain cases.
 	 */
 	public static int findNthPrime(int n) {
 		ArrayList<Integer> primes = new ArrayList<Integer>();
